@@ -191,7 +191,7 @@ class DataPreprocessing:
                 if read_flag:
                     if b_CsvFlag and len(p.split(',')) < 45:
                         read_flag = False
-                    elif len(p) < 40:
+                    elif len(p) < 120:
                         read_flag = False
                     else:
                         g = fMethod(p)
