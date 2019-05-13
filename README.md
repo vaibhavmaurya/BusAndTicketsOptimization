@@ -1,4 +1,4 @@
-<!-- TOC -->autoauto- [BusAndTicketsOptimization](#busandticketsoptimization)autoauto<!-- /TOC -->
+
 
 # About Tickets Issued Dataset
 
@@ -48,3 +48,4 @@ Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 
 | ETD_DST_SUB_STAGE   | Sub stage assigned to the destination bus stop for a given route  |
 | ETD_DATE  | Date of the ticket issued  |
 | ETD_TD_TIME  | Time of the ticket issued  |
+<!-- TOC -->autoauto- [About Tickets Issued Dataset](#about-tickets-issued-dataset)auto    - [Organization : KSRTC](#organization--ksrtc)auto        - [BackGround of Organization](#background-of-organization)auto        - [Services Provided by Organization](#services-provided-by-organization)auto    - [Dataset](#dataset)auto        - [Structure of Dataset](#structure-of-dataset)autoauto<!-- /TOC -->
