@@ -15,6 +15,11 @@
    "size": 1,
    "pos": 3
   },
+  "ETD_TRIP_NO": {
+   "start": 34,
+   "size": 11,
+   "pos": 4
+  },
   "ETD_TICKET_TYPE":{
    "start": 46,
    "size": 2,
@@ -79,6 +84,46 @@
    "start": 367,
    "size": 1,
    "pos": 40
+  },
+  "ETD_TICKET_NO": {
+   "start": 49,
+   "size": 6,
+   "pos": 6
+  },
+  "ETD_TICKET_SUBNO": {
+   "start": 56,
+   "size": 1,
+   "pos": 7
+  },
+  "ETD_CUR_STOP_NO": {
+   "start": 58,
+   "size": 3,
+   "pos": 8
+  },
+  "ETD_CUR_STOP_CODE": {
+   "start": 62,
+   "size": 3,
+   "pos": 9
+  },
+  "ETD_DST_STOP_NO": {
+   "start": 66,
+   "size": 3,
+   "pos": 10
+  },
+  "ETD_DST_STOP_CODE": {
+   "start": 70,
+   "size": 3,
+   "pos": 11
+  },
+  "ETD_CUR_SUB_STAGE": {
+   "start": 74,
+   "size": 1,
+   "pos": 12
+  },
+  "ETD_DST_SUB_STAGE": {
+   "start": 76,
+   "size": 1,
+   "pos": 13
   }
  }
 }
