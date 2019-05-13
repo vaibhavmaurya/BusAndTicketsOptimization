@@ -1,25 +1,33 @@
 
+# Tickets Issued Dataset
 
-# About Tickets Issued Dataset
+## Table of contents
+1. [About Tickets Issued Dataset](#AboutTicketData)
+    1. [BackGround of Organization](#OrgBackground)
+    2. [Services Provided by Organization](#OrgServices)
+2. [Dataset Info.](#DatasetInfo)
+    1. [Structure of Dataset](#DataSetStructure)
 
-This dataset is issued by KSRTC. It is a State Road Transport Corporation.
-## Organization : KSRTC
 
-### BackGround of Organization
+## About Tickets Issued Dataset <a name="AboutTicketData"></a>
+
+This dataset is issued by organization KSRTC. It is a State Road Transport Corporation.
+
+### BackGround of Organization <a name="OrgBackground"></a>
 
 The Karnataka State Road Transport Corporation (KSRTC) is a state-owned road
 transportation company catering to the different cities, towns and villages within and outside Karnataka. The corporation has the largest fleet of Volvo buses among the different state-owned transport companies in India. It is wholly owned by the Government of Karnataka.
 
-### Services Provided by Organization
+### Services Provided by Organization <a name="OrgServices"></a>
 Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 23829 buses (KSRTC-8348, NEKRTC-4343, NWKRTC-4716, and BMTC–6422). It transports, on an average, 74.57 lakh passengers per day. It also operates to the neighbouring states of Maharashtra, Andhra Pradesh, Telangana, Tamil Nadu, Puducherry, Goa and Kerala. KSRTC was the first state transport corporation to introduce Volvo B7RLE low floor city buses in India in 2005. At present, KSRTC operates TATA, Ashok Leyland, Eicher Motors are More, Also Volvo, Mercedes Benz, Scania buses under the A/C (Airavat) services (Airavat means the mythical white elephant in Kannada).
 
 
-## Dataset
+## Dataset Info. <a name="DatasetInfo"></a>
 
 - Dataset issued by KSRTC contains ticket issued to the passenger.
 - Each row is the ticket issued to passenger. Though some observations contains route change of the bus and route direction change of the bus also.
 
-### Structure of Dataset
+### Structure of Dataset <a name="DataSetStructure"></a>
 
 |  Column Name | Description  |
 | ------------ | ------------ |
