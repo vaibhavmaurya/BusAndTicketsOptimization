@@ -61,6 +61,9 @@ Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 
 
 ## Data Wrangling
 
-Following is the link for the data.
-[full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
+Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
+
 This archived file contains a text file named `aug18-dec18.txt`.
+
+This dataset is paginated and contains unnecessary strings as follows.
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
