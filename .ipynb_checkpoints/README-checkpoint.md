@@ -8,7 +8,7 @@
     3. [Dataset Info.](#DatasetInfo)
     4. [Structure of Dataset](#DataSetStructure)
 2. [Data Wrangling](#datawrangling)
-
+    1. [Gathering Data](#gatherdata)
 
 ## About Tickets Issued Dataset <a name="AboutTicketData"></a>
 
@@ -59,8 +59,25 @@ Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 
 | ETD_TD_TIME  | Time of the ticket issued  |
 
 
-## Data Wrangling
+## Data Wrangling <a name="datawrangling"></a>
 
 Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
 
 This archived file contains a text file named `aug18-dec18.txt`.
+
+This dataset is paginated and contains unnecessary strings as follows.
+![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/datapreview.png)
+
+This dataset has following issues:
+
+- Dataset is in a flat text file. It is paginated, 21 rows per page, though all pages are in the same text file seperated by new line.
+- Columns in the dataset are not fully qualified names. Each column is seperated by space.
+- Size of a column is difficult to determine.
+- The text files contains some additional strings in the begining and in the end also.
+
+Fortunately this dataset has following pros.
+
+- Dataset columns positions are fixed throughout the dataset.
+- Each page is uniformly seperated by newline throughout the dataset.
+
+### Gathering Data <a name="gatherdata"></a>
