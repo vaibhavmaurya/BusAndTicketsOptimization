@@ -68,6 +68,7 @@ This archived file contains a text file named `aug18-dec18.txt`.
 This dataset is paginated and contains unnecessary strings as follows.
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/datapreview.png)
 
+#### Challenges in the dataset
 This dataset has following issues:
 
 - Dataset is in a flat text file. It is paginated, 21 rows per page, though all pages are in the same text file seperated by new line.
@@ -90,3 +91,5 @@ To parse dataset into csv, following is the strategy opted:
 The program follows the logic as below.
 
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
+
+

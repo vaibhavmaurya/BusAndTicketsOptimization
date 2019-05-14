@@ -68,6 +68,7 @@ This archived file contains a text file named `aug18-dec18.txt`.
 This dataset is paginated and contains unnecessary strings as follows.
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/datapreview.png)
 
+#### Challenges in the dataset
 This dataset has following issues:
 
 - Dataset is in a flat text file. It is paginated, 21 rows per page, though all pages are in the same text file seperated by new line.
@@ -81,3 +82,14 @@ Fortunately this dataset has following pros.
 - Each page is uniformly seperated by newline throughout the dataset.
 
 ### Gathering Data <a name="gatherdata"></a>
+
+To parse dataset into csv, following is the strategy opted:
+
+- Created a [json file](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/src/datastructure.json) to parse text dataset. This json file contains column name as key and value is the object which contains start of the column, size of the column and position of the column.
+- Created a [library](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/src/DataProcessingModule.py) to clean the dataset.
+
+The program follows the logic as below.
+
+![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
+
+
