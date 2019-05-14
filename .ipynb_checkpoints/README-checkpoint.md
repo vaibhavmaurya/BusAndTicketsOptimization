@@ -92,4 +92,6 @@ The program follows the logic as below.
 
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
 
+Data is gathered in the [notebook](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
+
 
