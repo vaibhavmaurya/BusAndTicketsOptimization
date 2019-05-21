@@ -9,6 +9,7 @@
     4. [Structure of Dataset](#DataSetStructure)
 2. [Data Wrangling](#datawrangling)
     1. [Gathering Data](#gatherdata)
+3. [How to run this project](#run)
 
 ## About Tickets Issued Dataset <a name="AboutTicketData"></a>
 
@@ -93,5 +94,15 @@ The program follows the logic as below.
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
 
 Data is gathered in the [notebook](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
+
+
+## How to run this project <a name="run"></a>
+
+1. Download this project to local.
+2. Extract data [zip file](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
+3. Create 4 folders inside the [data](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/tree/master/data) folder: `clean_data`, `db`, `processed`, and `raw`.
+4. Copy file aug18-dec18.txt from extracted folder `full_data` to folder `raw`
+5. Run jupyter notebook [Data_Wrangling.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
+6. For data analysis run jupyter notebook [PassengersDistributionAnalysis.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.ipynb)
 
 
