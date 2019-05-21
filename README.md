@@ -62,11 +62,11 @@ Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 
 
 ## Data Wrangling <a name="datawrangling"></a>
 
-- Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
-- This archived file contains a text file named `aug18-dec18.txt`.
-- Data wrnagling is done in the [Data_Wrangling](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb) jupyter notebook.
+Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
 
-The snapshot of data is as follows.
+This archived file contains a text file named `aug18-dec18.txt`.
+
+This dataset is paginated and contains unnecessary strings as follows.
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/datapreview.png)
 
 #### Challenges in the dataset
@@ -93,7 +93,7 @@ The program follows the logic as below.
 
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
 
-
+Data is gathered in the [notebook](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
 
 
 ## How to run this project <a name="run"></a>
@@ -104,5 +104,10 @@ The program follows the logic as below.
 4. Copy file aug18-dec18.txt from extracted folder `full_data` to folder `raw`
 5. Run jupyter notebook [Data_Wrangling.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
 6. For data analysis run jupyter notebook [PassengersDistributionAnalysis.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.ipynb)
+
+Following are the jupyter notebooks html version.
+
+- [Data Wrangling and Data exploration](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.html)
+- [Data Analysis with visulaization](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.html)
 
 

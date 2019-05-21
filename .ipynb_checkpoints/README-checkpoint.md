@@ -105,4 +105,9 @@ Data is gathered in the [notebook](https://github.com/vaibhavmaurya/BusAndTicket
 5. Run jupyter notebook [Data_Wrangling.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
 6. For data analysis run jupyter notebook [PassengersDistributionAnalysis.ipynb](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.ipynb)
 
+Following are the jupyter notebooks html version.
+
+- [Data Wrangling and Data exploration](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.html)
+- [Data Analysis with visulaization](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.html)
+
 
