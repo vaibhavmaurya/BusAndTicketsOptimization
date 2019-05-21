@@ -62,11 +62,11 @@ Services covers 92% villages in Karnataka. KSRTC operates with a total fleet of 
 
 ## Data Wrangling <a name="datawrangling"></a>
 
-Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
+- Dataset url : [full_data.zip](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/data/full_data.zip)
+- This archived file contains a text file named `aug18-dec18.txt`.
+- Data wrnagling is done in the [Data_Wrangling](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb) jupyter notebook.
 
-This archived file contains a text file named `aug18-dec18.txt`.
-
-This dataset is paginated and contains unnecessary strings as follows.
+The snapshot of data is as follows.
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/datapreview.png)
 
 #### Challenges in the dataset
@@ -93,7 +93,7 @@ The program follows the logic as below.
 
 ![](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/images/DataCleaning.png)
 
-Data is gathered in the [notebook](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.ipynb).
+
 
 
 ## How to run this project <a name="run"></a>
