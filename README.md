@@ -131,7 +131,7 @@ Following changes are needed in the dataset.
 - ETD_ADULTS and ETD_CHILD columns depict no of adults and children boarded the bus. These columns can be combined to one single column PASSENGERS.
 - Some rows contains ETD_ADULTS and ETD_CHILD as 0. These rows are specific to certain purposes defined by [KSRTC](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/README.md#OrgBackground). These rows does not contain information about ticket issued and so these are out of the scope.
 - Columns ETD_CUR_SUB_STAGE, ETD_DST_SUB_STAGE and ETD_TICKET_SUBNO are always 0. It is better to remove them.
-- ETD_BATTERY_VOLT column is battery voltage of the bus when ticket is issued. This column is out of scope
+- ETD_BATTERY_VOLT column is battery voltage of the bus when ticket is issued. This column is out of scope.
 - ETD_DST_STOP_CODE and ETD_CUR_STOP_CODE, both fields the purpose is not known.
 - It would be good to have fate and time decomposed to month and week. So that monthly and weekly behavior can be analysed further.
 - Decompose date and time column to month, week and weekday columns. These columns will be used to find passengers congestion based on various time frames.
@@ -191,7 +191,7 @@ Following changes are needed in the dataset.
 
 Following are the jupyter notebooks html version.
 
-- [Data Wrangling and Data exploration](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.html)
-- [Data Analysis with visulaization](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.html)
+- [Data Wrangling and Data exploration](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/Data_Wrangling.slides.html)
+- [Data Analysis with visulaization](https://github.com/vaibhavmaurya/BusAndTicketsOptimization/blob/master/notebooks/PassengersDistributionAnalysis.slides.html)
 
 
