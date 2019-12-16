@@ -100,6 +100,7 @@ Fortunately this dataset has following pros.
 - Data is scattered accross multiple Bus Depots.
 - Each Depot maintain their on set of current bus stop codes and destination bus stop codes.
 - There is no centralized data organization for tickets.
+- It is required to go each Depot and request for data, which again comes out in the form of inconsistent xlsx, csv or text files.
 
 
 To parse dataset into csv, following is the strategy opted:
