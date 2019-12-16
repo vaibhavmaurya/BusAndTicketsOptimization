@@ -2,19 +2,25 @@
 # Tickets Issued Dataset
 
 ## Table of contents
-1. [About Tickets Issued Dataset](#AboutTicketData)
-    1. [BackGround of Organization](#OrgBackground)
-    2. [Services Provided by Organization](#OrgServices)
-    3. [Dataset Info.](#DatasetInfo)
-    4. [Structure of Dataset](#DataSetStructure)
-2. [Data Wrangling](#datawrangling)
-    1. [Gathering Data](#gatherdata)
-3. [Data Exploration Results](#exploration)
-    1. [Data Walkthrough](#exploration_walkthrough)
-    2. [Defining scope of the data analysis, so adjust and clean the data accordingly](#scopeandclean)
-    3. [Analysis of various characteristics of dataset](#characteristicsanalysis)
-    4. [Analysis of impact of various characteristics of dataset on number tickets sale](#ticketsaleanalysis)
-4. [How to run this project](#run)
+- [Tickets Issued Dataset](#tickets-issued-dataset)
+  - [Table of contents](#table-of-contents)
+  - [About Tickets Issued Dataset ](#about-tickets-issued-dataset)
+    - [BackGround of Organization ](#background-of-organization)
+    - [Services Provided by Organization ](#services-provided-by-organization)
+    - [Dataset Info. ](#dataset-info)
+    - [Structure of Dataset ](#structure-of-dataset)
+  - [Data Wrangling ](#data-wrangling)
+      - [Challenges in the dataset](#challenges-in-the-dataset)
+    - [Gathering Data ](#gathering-data)
+      - [Challenges](#challenges)
+  - [Data Exploration Results ](#data-exploration-results)
+    - [Data Walkthrough ](#data-walkthrough)
+    - [Defining scope of the data analysis, so adjust and clean the data accordingly ](#defining-scope-of-the-data-analysis-so-adjust-and-clean-the-data-accordingly)
+      - [Scope of the Data Exploration](#scope-of-the-data-exploration)
+      - [Certain Data changes](#certain-data-changes)
+    - [Analysis of various characteristics of dataset ](#analysis-of-various-characteristics-of-dataset)
+    - [Analysis of impact of various characteristics of dataset on number tickets sale ](#analysis-of-impact-of-various-characteristics-of-dataset-on-number-tickets-sale)
+  - [How to run this project ](#how-to-run-this-project)
 
 ## About Tickets Issued Dataset <a name="AboutTicketData"></a>
 
@@ -88,6 +94,13 @@ Fortunately this dataset has following pros.
 - Each page is uniformly seperated by newline throughout the dataset.
 
 ### Gathering Data <a name="gatherdata"></a>
+
+#### Challenges
+
+- Data is scattered accross multiple Bus Depots.
+- Each Depot maintain their on set of current bus stop codes and destination bus stop codes.
+- There is no centralized data organization for tickets.
+
 
 To parse dataset into csv, following is the strategy opted:
 
